@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Yummy!</title>
+</head>
+<body>
+    <div id="app">
+        <div id="title">🥘 Yummy!</div>
+        <div id="recipies">
+            <div id="ingredients">
+                <textarea id="ingredients-textbox" placeholder="What's in your fridge?&#10;Write ingredients in seperate lines for better results."></textarea>
+                <button id="get-recipe"><i class="fas fa-utensils"></i> Get Recipe</button>
+            </div>
+            <div id="directions">
+                <p>Directions will show up here! </p>
+            </div>
+        </div>
+        <div id="secret">
+            <p id="secret-text">Psst... what's the GPT-3 secret? 🤫</p>
+            <input id="secret-input" type="text">
+        </div>
+    </div>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
